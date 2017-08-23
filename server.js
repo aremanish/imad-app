@@ -24,7 +24,7 @@ var date=obj.date;
 var head=obj.head;
 var title=obj.title;
 var content=obj.content;
-var html=`
+var html1=`
     <html>
     <head>
        <title>{title}</title>
@@ -42,7 +42,7 @@ var html=`
     </body>
 </html>
 `;
-return html;
+return html1;
 }
 
 app.get('/', function (req, res) {
