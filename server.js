@@ -35,13 +35,13 @@ var html=`
         <div><a href="/">Home</a></div>
         <hr />
         <h3>{head}</h3>
-        <div>{date}</di0v>
+        <div>{date}</div>
         <div>
         {content}         
         </div>
     </body>
 </html>
-`
+`;
 return html;
 }
 
