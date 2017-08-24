@@ -27,17 +27,17 @@ var content=obj.content;
 var html1=`
     <html>
     <head>
-       <title>{title}</title>
+       <title>${title}</title>
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="/ui/style.css" rel="stylesheet" />
     </head>
     <body>
         <div><a href="/">Home</a></div>
         <hr />
-        <h3>{head}</h3>
-        <div>{date}</div>
+        <h3>${head}</h3>
+        <div>${date}</div>
         <div>
-        {content}         
+        ${content}         
         </div>
     </body>
 </html>
